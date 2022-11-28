@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		94B19CFF3F45E4C53080761DD484DD29 /* AzureNotificationHubs-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F99608F0060C9C956360883B11DCFE0F /* Build configuration list for PBXAggregateTarget "AzureNotificationHubs-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AzureNotificationHubs-iOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3F1E3E03B70EF512A6AA8EEAF87752B2 /* Pods-alms-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A44CB69027ABD310795D404ED9F13C4A /* Pods-alms-dummy.m */; };
+		6C7F3C0626B15F128E1E603C91D65723 /* Pods-almsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E1F91E95426FE21A48C40E38AE134C7 /* Pods-almsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE19E1E986323D8C2D745409000F0AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C222F74A8416C0DB98462851EC56000D /* Pods-alms-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B1CD8323CD1055BFE03D8B3E7482B1 /* Pods-alms-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7C415956187449E8BD33C9F5325CE9D /* Pods-almsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 481DBA8AB37FCAACF5A6B761947A0F2A /* Pods-almsTests-dummy.m */; };
+		FEAA0B3864636844C15ED153082C1E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CECF0087FF3B845B595D02D45181849 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E7BAF70725B34E836F0188FBD558B20;
+			remoteInfo = "Pods-alms";
+		};
+		3CA775714049D7052B5878D6BC91998F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B19CFF3F45E4C53080761DD484DD29;
+			remoteInfo = "AzureNotificationHubs-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014C7D6F8FA421EEC8A8E9D1A9CFC57A /* Pods-alms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alms.debug.xcconfig"; sourceTree = "<group>"; };
+		02840DF9790F54FD1B24BC7D95D49754 /* WindowsAzureMessaging.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = WindowsAzureMessaging.xcframework; path = "WindowsAzureMessaging-SDK-Apple/WindowsAzureMessaging.xcframework"; sourceTree = "<group>"; };
+		0BC7F6EDA9FD8A262EE550018164D632 /* Pods-almsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-almsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0E573BD5ED07A5BEA7DFFFF0161933CE /* AzureNotificationHubs-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AzureNotificationHubs-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1D5A5281F17FBD72DA720386C235A7FC /* Pods-alms-artifacts-Debug-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-alms-artifacts-Debug-input-files.xcfilelist"; sourceTree = "<group>"; };
+		2449B3B4FB7412CD4F98456084607A90 /* AzureNotificationHubs-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AzureNotificationHubs-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		29C37D0A5B494BC5313794812072B570 /* Pods-alms-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alms-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		481DBA8AB37FCAACF5A6B761947A0F2A /* Pods-almsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-almsTests-dummy.m"; sourceTree = "<group>"; };
+		5CA38D6128F14EF0CB605DDF1E90A813 /* Pods_alms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_alms.framework; path = "Pods-alms.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7223D2276DFF2C84528604598ECA03AF /* Pods-alms-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-alms-Info.plist"; sourceTree = "<group>"; };
+		7BE39F480A95202DCAD6650EB0A5F2BE /* Pods-almsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-almsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		83B1CD8323CD1055BFE03D8B3E7482B1 /* Pods-alms-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-alms-umbrella.h"; sourceTree = "<group>"; };
+		8561888401D7D5F6A588C366DF0A4E94 /* Pods-alms-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-alms-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E1F91E95426FE21A48C40E38AE134C7 /* Pods-almsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-almsTests-umbrella.h"; sourceTree = "<group>"; };
+		A04DD65C84A46D4CB806E13CF4D5E204 /* Pods-alms-artifacts-Release-input-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-alms-artifacts-Release-input-files.xcfilelist"; sourceTree = "<group>"; };
+		A31626898184971AD3A6052A63B57F82 /* Pods-alms-artifacts-Release-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-alms-artifacts-Release-output-files.xcfilelist"; sourceTree = "<group>"; };
+		A44CB69027ABD310795D404ED9F13C4A /* Pods-alms-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-alms-dummy.m"; sourceTree = "<group>"; };
+		ACBCE25F480977BB35DFD2827CE4C653 /* Pods_almsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_almsTests.framework; path = "Pods-almsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F39C4D6B902795D5D190DC51FAA44E /* Pods-alms-artifacts.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-alms-artifacts.sh"; sourceTree = "<group>"; };
+		B9EB781ACD9E8F7786F1283D549740CB /* Pods-almsTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-almsTests-Info.plist"; sourceTree = "<group>"; };
+		BB11AA9521EA3260D0C985F0BB064E37 /* Pods-alms-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-alms-acknowledgements.plist"; sourceTree = "<group>"; };
+		C9B1EB99449A93FC5AF24AEE76DD4331 /* Pods-almsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-almsTests.modulemap"; sourceTree = "<group>"; };
+		CF4A0B0AFFD38AE9B1A33286084F7529 /* Pods-alms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-alms.release.xcconfig"; sourceTree = "<group>"; };
+		D735470F5AD4BABDBC62228253ABD477 /* Pods-almsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-almsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB432BE4B362A151BBAFD6624D9603AD /* Pods-alms-artifacts-Debug-output-files.xcfilelist */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-alms-artifacts-Debug-output-files.xcfilelist"; sourceTree = "<group>"; };
+		F5D6C481AF938B54DA2FA6A73F3FAC51 /* Pods-alms.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-alms.modulemap"; sourceTree = "<group>"; };
+		FF45BA8ACAF0EDEB9042AABA32212C7C /* Pods-almsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-almsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3133DAF5D2990C294E26028DEDFA42BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEAA0B3864636844C15ED153082C1E4A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E3DD7730367AA45150DC4C90CAF4EE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE19E1E986323D8C2D745409000F0AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0725417718C4D4CC11E80D8E602F17DA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C94108D4DAF763679BF9B13CD00808A4 /* Pods-alms */,
+				F706130ADE69E2AFF1A86E737456BBF6 /* Pods-almsTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1C52B7AFF1F1E33B149CBE48562A5DE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA3FAB5A7404106852374CD3C8BF9C3A /* AzureNotificationHubs-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1F06D7D944F3505DC3BCD875F8EDA23F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA38D6128F14EF0CB605DDF1E90A813 /* Pods_alms.framework */,
+				ACBCE25F480977BB35DFD2827CE4C653 /* Pods_almsTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F51A6436BF47742E370D7D5F61A3BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E573BD5ED07A5BEA7DFFFF0161933CE /* AzureNotificationHubs-iOS.debug.xcconfig */,
+				2449B3B4FB7412CD4F98456084607A90 /* AzureNotificationHubs-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AzureNotificationHubs-iOS";
+			sourceTree = "<group>";
+		};
+		B880A6F0FD1653EBC7FE3F61157984AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02840DF9790F54FD1B24BC7D95D49754 /* WindowsAzureMessaging.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C94108D4DAF763679BF9B13CD00808A4 /* Pods-alms */ = {
+			isa = PBXGroup;
+			children = (
+				F5D6C481AF938B54DA2FA6A73F3FAC51 /* Pods-alms.modulemap */,
+				8561888401D7D5F6A588C366DF0A4E94 /* Pods-alms-acknowledgements.markdown */,
+				BB11AA9521EA3260D0C985F0BB064E37 /* Pods-alms-acknowledgements.plist */,
+				B1F39C4D6B902795D5D190DC51FAA44E /* Pods-alms-artifacts.sh */,
+				1D5A5281F17FBD72DA720386C235A7FC /* Pods-alms-artifacts-Debug-input-files.xcfilelist */,
+				DB432BE4B362A151BBAFD6624D9603AD /* Pods-alms-artifacts-Debug-output-files.xcfilelist */,
+				A04DD65C84A46D4CB806E13CF4D5E204 /* Pods-alms-artifacts-Release-input-files.xcfilelist */,
+				A31626898184971AD3A6052A63B57F82 /* Pods-alms-artifacts-Release-output-files.xcfilelist */,
+				A44CB69027ABD310795D404ED9F13C4A /* Pods-alms-dummy.m */,
+				29C37D0A5B494BC5313794812072B570 /* Pods-alms-frameworks.sh */,
+				7223D2276DFF2C84528604598ECA03AF /* Pods-alms-Info.plist */,
+				83B1CD8323CD1055BFE03D8B3E7482B1 /* Pods-alms-umbrella.h */,
+				014C7D6F8FA421EEC8A8E9D1A9CFC57A /* Pods-alms.debug.xcconfig */,
+				CF4A0B0AFFD38AE9B1A33286084F7529 /* Pods-alms.release.xcconfig */,
+			);
+			name = "Pods-alms";
+			path = "Target Support Files/Pods-alms";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1C52B7AFF1F1E33B149CBE48562A5DE0 /* Pods */,
+				1F06D7D944F3505DC3BCD875F8EDA23F /* Products */,
+				0725417718C4D4CC11E80D8E602F17DA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA3FAB5A7404106852374CD3C8BF9C3A /* AzureNotificationHubs-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B880A6F0FD1653EBC7FE3F61157984AC /* Frameworks */,
+				21F51A6436BF47742E370D7D5F61A3BA /* Support Files */,
+			);
+			name = "AzureNotificationHubs-iOS";
+			path = "AzureNotificationHubs-iOS";
+			sourceTree = "<group>";
+		};
+		F706130ADE69E2AFF1A86E737456BBF6 /* Pods-almsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C9B1EB99449A93FC5AF24AEE76DD4331 /* Pods-almsTests.modulemap */,
+				D735470F5AD4BABDBC62228253ABD477 /* Pods-almsTests-acknowledgements.markdown */,
+				7BE39F480A95202DCAD6650EB0A5F2BE /* Pods-almsTests-acknowledgements.plist */,
+				481DBA8AB37FCAACF5A6B761947A0F2A /* Pods-almsTests-dummy.m */,
+				B9EB781ACD9E8F7786F1283D549740CB /* Pods-almsTests-Info.plist */,
+				9E1F91E95426FE21A48C40E38AE134C7 /* Pods-almsTests-umbrella.h */,
+				0BC7F6EDA9FD8A262EE550018164D632 /* Pods-almsTests.debug.xcconfig */,
+				FF45BA8ACAF0EDEB9042AABA32212C7C /* Pods-almsTests.release.xcconfig */,
+			);
+			name = "Pods-almsTests";
+			path = "Target Support Files/Pods-almsTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1393E219668E77EBF573C7833917601 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7F3C0626B15F128E1E603C91D65723 /* Pods-almsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABEAFB3FB9ECD0F51FD9608EFDDA0E14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C222F74A8416C0DB98462851EC56000D /* Pods-alms-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4F74159590D9129F2568C51C34CBCFEC /* Pods-almsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75C67EA98FCF072F579A700DF2D2A479 /* Build configuration list for PBXNativeTarget "Pods-almsTests" */;
+			buildPhases = (
+				A1393E219668E77EBF573C7833917601 /* Headers */,
+				79FF67C0F38273DAA9D037B3EDFAA0BB /* Sources */,
+				4E3DD7730367AA45150DC4C90CAF4EE3 /* Frameworks */,
+				BBED81E44AF182583DEF7051467F620B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7EFB427A3F70E487EBC30746639162F /* PBXTargetDependency */,
+			);
+			name = "Pods-almsTests";
+			productName = "Pods-almsTests";
+			productReference = ACBCE25F480977BB35DFD2827CE4C653 /* Pods_almsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E7BAF70725B34E836F0188FBD558B20 /* Pods-alms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41979768E37B9A745534CD4E353B84BF /* Build configuration list for PBXNativeTarget "Pods-alms" */;
+			buildPhases = (
+				ABEAFB3FB9ECD0F51FD9608EFDDA0E14 /* Headers */,
+				44C3F842AF41B03A6B1E8A5126F87DA4 /* Sources */,
+				3133DAF5D2990C294E26028DEDFA42BA /* Frameworks */,
+				AA96BB4794F3CACBB0FAC096F2189AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209AEF9E44343D5F91C0F9CA42A9ABF0 /* PBXTargetDependency */,
+			);
+			name = "Pods-alms";
+			productName = "Pods-alms";
+			productReference = 5CA38D6128F14EF0CB605DDF1E90A813 /* Pods_alms.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1F06D7D944F3505DC3BCD875F8EDA23F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B19CFF3F45E4C53080761DD484DD29 /* AzureNotificationHubs-iOS */,
+				9E7BAF70725B34E836F0188FBD558B20 /* Pods-alms */,
+				4F74159590D9129F2568C51C34CBCFEC /* Pods-almsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA96BB4794F3CACBB0FAC096F2189AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBED81E44AF182583DEF7051467F620B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C3F842AF41B03A6B1E8A5126F87DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E3E03B70EF512A6AA8EEAF87752B2 /* Pods-alms-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FF67C0F38273DAA9D037B3EDFAA0BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C415956187449E8BD33C9F5325CE9D /* Pods-almsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209AEF9E44343D5F91C0F9CA42A9ABF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AzureNotificationHubs-iOS";
+			target = 94B19CFF3F45E4C53080761DD484DD29 /* AzureNotificationHubs-iOS */;
+			targetProxy = 3CA775714049D7052B5878D6BC91998F /* PBXContainerItemProxy */;
+		};
+		A7EFB427A3F70E487EBC30746639162F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-alms";
+			target = 9E7BAF70725B34E836F0188FBD558B20 /* Pods-alms */;
+			targetProxy = 1CECF0087FF3B845B595D02D45181849 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DC0335745F3D69E31C22E080A72408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E573BD5ED07A5BEA7DFFFF0161933CE /* AzureNotificationHubs-iOS.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CC8A76AF9BBB145257E487DA28CC004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF4A0B0AFFD38AE9B1A33286084F7529 /* Pods-alms.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-alms/Pods-alms-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alms/Pods-alms.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		29065DDA2979900EFC4F132648DFCEA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 014C7D6F8FA421EEC8A8E9D1A9CFC57A /* Pods-alms.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-alms/Pods-alms-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-alms/Pods-alms.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73B0AF2733A8F5FD14C0BCA8C74E942F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2449B3B4FB7412CD4F98456084607A90 /* AzureNotificationHubs-iOS.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F80797EB327320C278A099CEC10E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF45BA8ACAF0EDEB9042AABA32212C7C /* Pods-almsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-almsTests/Pods-almsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-almsTests/Pods-almsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AA8411BA936F512490C5834FC5DB2B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BC7F6EDA9FD8A262EE550018164D632 /* Pods-almsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-almsTests/Pods-almsTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-almsTests/Pods-almsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41979768E37B9A745534CD4E353B84BF /* Build configuration list for PBXNativeTarget "Pods-alms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29065DDA2979900EFC4F132648DFCEA4 /* Debug */,
+				1CC8A76AF9BBB145257E487DA28CC004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75C67EA98FCF072F579A700DF2D2A479 /* Build configuration list for PBXNativeTarget "Pods-almsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA8411BA936F512490C5834FC5DB2B92 /* Debug */,
+				8F80797EB327320C278A099CEC10E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99608F0060C9C956360883B11DCFE0F /* Build configuration list for PBXAggregateTarget "AzureNotificationHubs-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05DC0335745F3D69E31C22E080A72408 /* Debug */,
+				73B0AF2733A8F5FD14C0BCA8C74E942F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

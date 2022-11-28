@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "459348850029",
+    "firebase_url": "https://alms-mobile.firebaseio.com",
+    "project_id": "alms-mobile",
+    "storage_bucket": "alms-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459348850029:android:c74df30741b15c79",
+        "android_client_info": {
+          "package_name": "com.advancity.alms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "459348850029-i5008l1v37sr73silkj5kgmlj3rrnh5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGHsSaAFiXXZ8xGK17yRJg3SjHnL5IlkM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "459348850029-i5008l1v37sr73silkj5kgmlj3rrnh5c.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "459348850029-fga919r4bnarqrjhvcnsl453v1nlp8ik.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "tr.com.advancity.alms"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
